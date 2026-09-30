@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Team notes (kept local)
+Team.md
+
+# macOS
+.DS_Store
+
+# Course handouts (kept local)
+LinearizationLab.html
+Plotting_Lab_Week4_Students.ipynb
+
+# Duplicate extract
+data/ved_vehicle119_trip985_.csv
