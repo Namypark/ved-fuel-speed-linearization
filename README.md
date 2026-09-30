@@ -48,12 +48,12 @@ reference.
 uv sync
 ```
 
-Then open a notebook in `src/` and pick the `.venv` kernel:
+Then open `src/main.ipynb` and pick the `.venv` kernel. It is one notebook, run top to bottom:
 
-- `src/main.ipynb`: Part 1, data setup and cleaning (produces `speed_df`)
-- `src/Rangeetha_Transform_EDA.ipynb`: Part 2, plots and the `speed_sq` feature. It runs
-  `main.ipynb` first, so run it from `src/`.
-- `src/numpy_model.ipynb`: Part 3, the quadratic fitted with `np.linalg.lstsq`
+- Part 1: data setup and cleaning (Nnamdi)
+- Part 2: plots and the `speed_sq` feature (Rangeetha)
+- Part 3: the quadratic fitted with `np.linalg.lstsq` (Davis)
+- Part 4: scikit-learn fit and model checking (Carlos)
 
 Keep notebooks in `src/` so `from data_loader import DataLoader` works. Load the data with:
 
