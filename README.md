@@ -48,7 +48,13 @@ reference.
 uv sync
 ```
 
-Then open `src/main.ipynb` and pick the `.venv` kernel. Load the data with:
+Then open a notebook in `src/` and pick the `.venv` kernel:
+
+- `src/main.ipynb`: Part 1, data setup and cleaning (produces `speed_df`)
+- `src/Rangeetha_Transform_EDA.ipynb`: Part 2, plots and the `speed_sq` feature. It runs
+  `main.ipynb` first, so run it from `src/`.
+
+Keep notebooks in `src/` so `from data_loader import DataLoader` works. Load the data with:
 
 ```python
 from data_loader import DataLoader
